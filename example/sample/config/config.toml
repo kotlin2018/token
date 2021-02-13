@@ -1,0 +1,21 @@
+[server]
+    Address        = "127.0.0.1:8081"
+    ServerAgent    = "gtoken-demo"
+    LogPath        = "./example/sample1/logs"
+
+#jwt-token配置
+[token]
+    ServerName = "gtoken"
+    CacheMode = 1  # 缓存模式 1 gcache 2 gredis
+    CacheKey = "GToken:"
+    Timeout = 0
+    MaxRefresh = 0
+    TokenDelimiter="_"
+    EncryptKey = "koi29a83idakguqjq29asd9asd8a7jhq"
+    AuthFailMsg = "登录超时，请重新登录"
+    MultiLogin = true  # 是否支持多端登录
+
+# Redis数据库配置
+[redis]
+    default = "127.0.0.1:16379,0,soccer"
+    cache   = "127.0.0.1:16379,1,soccer?idleTimeout=600"

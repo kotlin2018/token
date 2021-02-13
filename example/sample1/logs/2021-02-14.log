@@ -1,0 +1,1030 @@
+2021-02-14 00:23:28.103 69163: all servers shutdown
+2021-02-14 01:41:05.091 [FATA] duplicated route registry "ALL:/login" at /Users/lo/Desktop/token/gtoken_group.go:36 , already registered at /Users/lo/Desktop/token/gtoken.go:226 
+Stack:
+1.  github.com/gogf/gf/net/ghttp.(*Server).setHandler
+    /Users/lo/go/pkg/mod/github.com/gogf/gf@v1.15.3/net/ghttp/ghttp_server_router.go:90
+2.  github.com/gogf/gf/net/ghttp.(*Server).doBindHandler
+    /Users/lo/go/pkg/mod/github.com/gogf/gf@v1.15.3/net/ghttp/ghttp_server_service_handler.go:29
+3.  github.com/gogf/gf/net/ghttp.(*RouterGroup).doBindRoutersToServer
+    /Users/lo/go/pkg/mod/github.com/gogf/gf@v1.15.3/net/ghttp/ghttp_server_router_group.go:314
+4.  github.com/gogf/gf/net/ghttp.(*Server).handlePreBindItems
+    /Users/lo/go/pkg/mod/github.com/gogf/gf@v1.15.3/net/ghttp/ghttp_server_router_group.go:66
+5.  github.com/gogf/gf/net/ghttp.(*Server).Start
+    /Users/lo/go/pkg/mod/github.com/gogf/gf@v1.15.3/net/ghttp/ghttp_server.go:120
+6.  github.com/gogf/gf/net/ghttp.(*Server).Run
+    /Users/lo/go/pkg/mod/github.com/gogf/gf@v1.15.3/net/ghttp/ghttp_server.go:310
+7.  main.main
+    /Users/lo/Desktop/token/example/sample1/main.go:25
+
+2021-02-14 01:42:16.613 [FATA] duplicated route registry "ALL:/login" at /Users/lo/Desktop/token/gtoken_group.go:36 , already registered at /Users/lo/Desktop/token/gtoken.go:226 
+Stack:
+1.  github.com/gogf/gf/net/ghttp.(*Server).setHandler
+    /Users/lo/go/pkg/mod/github.com/gogf/gf@v1.15.3/net/ghttp/ghttp_server_router.go:90
+2.  github.com/gogf/gf/net/ghttp.(*Server).doBindHandler
+    /Users/lo/go/pkg/mod/github.com/gogf/gf@v1.15.3/net/ghttp/ghttp_server_service_handler.go:29
+3.  github.com/gogf/gf/net/ghttp.(*RouterGroup).doBindRoutersToServer
+    /Users/lo/go/pkg/mod/github.com/gogf/gf@v1.15.3/net/ghttp/ghttp_server_router_group.go:314
+4.  github.com/gogf/gf/net/ghttp.(*Server).handlePreBindItems
+    /Users/lo/go/pkg/mod/github.com/gogf/gf@v1.15.3/net/ghttp/ghttp_server_router_group.go:66
+5.  github.com/gogf/gf/net/ghttp.(*Server).Start
+    /Users/lo/go/pkg/mod/github.com/gogf/gf@v1.15.3/net/ghttp/ghttp_server.go:120
+6.  github.com/gogf/gf/net/ghttp.(*Server).Run
+    /Users/lo/go/pkg/mod/github.com/gogf/gf@v1.15.3/net/ghttp/ghttp_server.go:310
+7.  main.main
+    /Users/lo/Desktop/token/example/sample1/main.go:24
+
+2021-02-14 01:43:26.911 [FATA] duplicated route registry "ALL:/login" at /Users/lo/Desktop/token/gtoken_group.go:36 , already registered at /Users/lo/Desktop/token/gtoken.go:226 
+Stack:
+1.  github.com/gogf/gf/net/ghttp.(*Server).setHandler
+    /Users/lo/go/pkg/mod/github.com/gogf/gf@v1.15.3/net/ghttp/ghttp_server_router.go:90
+2.  github.com/gogf/gf/net/ghttp.(*Server).doBindHandler
+    /Users/lo/go/pkg/mod/github.com/gogf/gf@v1.15.3/net/ghttp/ghttp_server_service_handler.go:29
+3.  github.com/gogf/gf/net/ghttp.(*RouterGroup).doBindRoutersToServer
+    /Users/lo/go/pkg/mod/github.com/gogf/gf@v1.15.3/net/ghttp/ghttp_server_router_group.go:314
+4.  github.com/gogf/gf/net/ghttp.(*Server).handlePreBindItems
+    /Users/lo/go/pkg/mod/github.com/gogf/gf@v1.15.3/net/ghttp/ghttp_server_router_group.go:66
+5.  github.com/gogf/gf/net/ghttp.(*Server).Start
+    /Users/lo/go/pkg/mod/github.com/gogf/gf@v1.15.3/net/ghttp/ghttp_server.go:120
+6.  github.com/gogf/gf/net/ghttp.(*Server).Run
+    /Users/lo/go/pkg/mod/github.com/gogf/gf@v1.15.3/net/ghttp/ghttp_server.go:310
+7.  main.main
+    /Users/lo/Desktop/token/example/sample1/main.go:24
+
+2021-02-14 01:46:16.584 [FATA] duplicated route registry "ALL:/login" at /Users/lo/Desktop/token/gtoken_group.go:36 , already registered at /Users/lo/Desktop/token/gtoken.go:226 
+Stack:
+1.  github.com/gogf/gf/net/ghttp.(*Server).setHandler
+    /Users/lo/go/pkg/mod/github.com/gogf/gf@v1.15.3/net/ghttp/ghttp_server_router.go:90
+2.  github.com/gogf/gf/net/ghttp.(*Server).doBindHandler
+    /Users/lo/go/pkg/mod/github.com/gogf/gf@v1.15.3/net/ghttp/ghttp_server_service_handler.go:29
+3.  github.com/gogf/gf/net/ghttp.(*RouterGroup).doBindRoutersToServer
+    /Users/lo/go/pkg/mod/github.com/gogf/gf@v1.15.3/net/ghttp/ghttp_server_router_group.go:314
+4.  github.com/gogf/gf/net/ghttp.(*Server).handlePreBindItems
+    /Users/lo/go/pkg/mod/github.com/gogf/gf@v1.15.3/net/ghttp/ghttp_server_router_group.go:66
+5.  github.com/gogf/gf/net/ghttp.(*Server).Start
+    /Users/lo/go/pkg/mod/github.com/gogf/gf@v1.15.3/net/ghttp/ghttp_server.go:120
+6.  github.com/gogf/gf/net/ghttp.(*Server).Run
+    /Users/lo/go/pkg/mod/github.com/gogf/gf@v1.15.3/net/ghttp/ghttp_server.go:310
+7.  main.main
+    /Users/lo/Desktop/token/example/sample1/main.go:24
+
+2021-02-14 01:46:41.564 72970: http server started listening on [127.0.0.1:8082]
+
+  SERVER | DOMAIN  |    ADDRESS     | METHOD |         ROUTE          |                         HANDLER                          |    MIDDLEWARE      
+|--------|---------|----------------|--------|------------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /base/hello            | main.initToken.func1.1                                   | token.CORS         
+|--------|---------|----------------|--------|------------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /base/system/user      | main.initToken.func1.2                                   | token.CORS         
+|--------|---------|----------------|--------|------------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /base/system/user/info | main.initToken.func1.4                                   | token.CORS         
+|--------|---------|----------------|--------|------------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /base/user/info        | main.initToken.func1.3                                   | token.CORS         
+|--------|---------|----------------|--------|------------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /system/*              | github.com/kotlin2018/token.(*GfToken).authMiddleware-fm | GLOBAL MIDDLEWARE  
+|--------|---------|----------------|--------|------------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /system/user           | main.initToken.func2.1                                   | token.CORS         
+|--------|---------|----------------|--------|------------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /user/*                | github.com/kotlin2018/token.(*GfToken).authMiddleware-fm | GLOBAL MIDDLEWARE  
+|--------|---------|----------------|--------|------------------------|----------------------------------------------------------|-------------------|
+
+2021-02-14 01:48:15.885 72970: all servers shutdown
+2021-02-14 01:48:17.873 73049: http server started listening on [127.0.0.1:8082]
+
+  SERVER | DOMAIN  |    ADDRESS     | METHOD |         ROUTE          |                         HANDLER                          |    MIDDLEWARE      
+|--------|---------|----------------|--------|------------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /base/hello            | main.initToken.func1.1                                   | token.CORS         
+|--------|---------|----------------|--------|------------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /base/system/user      | main.initToken.func1.2                                   | token.CORS         
+|--------|---------|----------------|--------|------------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /base/system/user/info | main.initToken.func1.4                                   | token.CORS         
+|--------|---------|----------------|--------|------------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /base/user/info        | main.initToken.func1.3                                   | token.CORS         
+|--------|---------|----------------|--------|------------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /system/*              | github.com/kotlin2018/token.(*GfToken).authMiddleware-fm | GLOBAL MIDDLEWARE  
+|--------|---------|----------------|--------|------------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /system/user           | main.initToken.func2.1                                   | token.CORS         
+|--------|---------|----------------|--------|------------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /user/*                | github.com/kotlin2018/token.(*GfToken).authMiddleware-fm | GLOBAL MIDDLEWARE  
+|--------|---------|----------------|--------|------------------------|----------------------------------------------------------|-------------------|
+
+2021-02-14 01:49:04.309 73049: all servers shutdown
+2021-02-14 01:49:06.038 73096: http server started listening on [127.0.0.1:8082]
+
+  SERVER | DOMAIN  |    ADDRESS     | METHOD |         ROUTE          |                         HANDLER                          |    MIDDLEWARE      
+|--------|---------|----------------|--------|------------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /base/hello            | main.initToken.func1.1                                   | token.CORS         
+|--------|---------|----------------|--------|------------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /base/system/user      | main.initToken.func1.2                                   | token.CORS         
+|--------|---------|----------------|--------|------------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /base/system/user/info | main.initToken.func1.4                                   | token.CORS         
+|--------|---------|----------------|--------|------------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /base/user/info        | main.initToken.func1.3                                   | token.CORS         
+|--------|---------|----------------|--------|------------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /system/*              | github.com/kotlin2018/token.(*GfToken).authMiddleware-fm | GLOBAL MIDDLEWARE  
+|--------|---------|----------------|--------|------------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /system/user           | main.initToken.func2.1                                   | token.CORS         
+|--------|---------|----------------|--------|------------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /user/*                | github.com/kotlin2018/token.(*GfToken).authMiddleware-fm | GLOBAL MIDDLEWARE  
+|--------|---------|----------------|--------|------------------------|----------------------------------------------------------|-------------------|
+
+2021-02-14 01:50:00.090 73096: all servers shutdown
+2021-02-14 01:50:02.114 73149: http server started listening on [127.0.0.1:8082]
+
+  SERVER | DOMAIN  |    ADDRESS     | METHOD |         ROUTE          |                         HANDLER                          |    MIDDLEWARE      
+|--------|---------|----------------|--------|------------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /base/hello            | main.initToken.func1.1                                   | token.CORS         
+|--------|---------|----------------|--------|------------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /base/system/user      | main.initToken.func1.2                                   | token.CORS         
+|--------|---------|----------------|--------|------------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /base/system/user/info | main.initToken.func1.4                                   | token.CORS         
+|--------|---------|----------------|--------|------------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /base/user/info        | main.initToken.func1.3                                   | token.CORS         
+|--------|---------|----------------|--------|------------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /system/*              | github.com/kotlin2018/token.(*GfToken).authMiddleware-fm | GLOBAL MIDDLEWARE  
+|--------|---------|----------------|--------|------------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /system/user           | main.initToken.func2.1                                   | token.CORS         
+|--------|---------|----------------|--------|------------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /user/*                | github.com/kotlin2018/token.(*GfToken).authMiddleware-fm | GLOBAL MIDDLEWARE  
+|--------|---------|----------------|--------|------------------------|----------------------------------------------------------|-------------------|
+
+2021-02-14 01:51:12.462 73149: all servers shutdown
+2021-02-14 01:56:29.308 73385: http server started listening on [127.0.0.1:8082]
+
+  SERVER | DOMAIN  |    ADDRESS     | METHOD |    ROUTE     |                     HANDLER                      |                  MIDDLEWARE                   
+|--------|---------|----------------|--------|--------------|--------------------------------------------------|----------------------------------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /login       | github.com/kotlin2018/token.(*GfToken).Login-fm  | main.CORS,token.(*GfToken).authMiddleware-fm  
+|--------|---------|----------------|--------|--------------|--------------------------------------------------|----------------------------------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /system/user | main.init2.func1.1                               | main.CORS,token.(*GfToken).authMiddleware-fm  
+|--------|---------|----------------|--------|--------------|--------------------------------------------------|----------------------------------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /user/logout | github.com/kotlin2018/token.(*GfToken).Logout-fm | main.CORS,token.(*GfToken).authMiddleware-fm  
+|--------|---------|----------------|--------|--------------|--------------------------------------------------|----------------------------------------------|
+
+2021-02-14 01:59:31.570 73385: all servers shutdown
+2021-02-14 01:59:33.868 73506: http server started listening on [127.0.0.1:8082]
+
+  SERVER | DOMAIN  |    ADDRESS     | METHOD |       ROUTE       |                     HANDLER                      |                  MIDDLEWARE                   
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|----------------------------------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /login            | github.com/kotlin2018/token.(*GfToken).Login-fm  | main.CORS,token.(*GfToken).authMiddleware-fm  
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|----------------------------------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /system/user      | main.init2.func1.1                               | main.CORS,token.(*GfToken).authMiddleware-fm  
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|----------------------------------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /system/user/list | main.init2.func2.1                               | main.CORS                                     
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|----------------------------------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /user/logout      | github.com/kotlin2018/token.(*GfToken).Logout-fm | main.CORS,token.(*GfToken).authMiddleware-fm  
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|----------------------------------------------|
+
+2021-02-14 02:00:50.230 73506: all servers shutdown
+2021-02-14 02:00:52.274 [FATA] duplicated route registry "ALL:/login" at /Users/lo/Desktop/token/gtoken_group.go:36 , already registered at /Users/lo/Desktop/token/gtoken_group.go:36 
+Stack:
+1.  github.com/gogf/gf/net/ghttp.(*Server).setHandler
+    /Users/lo/go/pkg/mod/github.com/gogf/gf@v1.15.3/net/ghttp/ghttp_server_router.go:90
+2.  github.com/gogf/gf/net/ghttp.(*Server).doBindHandler
+    /Users/lo/go/pkg/mod/github.com/gogf/gf@v1.15.3/net/ghttp/ghttp_server_service_handler.go:29
+3.  github.com/gogf/gf/net/ghttp.(*RouterGroup).doBindRoutersToServer
+    /Users/lo/go/pkg/mod/github.com/gogf/gf@v1.15.3/net/ghttp/ghttp_server_router_group.go:314
+4.  github.com/gogf/gf/net/ghttp.(*Server).handlePreBindItems
+    /Users/lo/go/pkg/mod/github.com/gogf/gf@v1.15.3/net/ghttp/ghttp_server_router_group.go:66
+5.  github.com/gogf/gf/net/ghttp.(*Server).Start
+    /Users/lo/go/pkg/mod/github.com/gogf/gf@v1.15.3/net/ghttp/ghttp_server.go:120
+6.  github.com/gogf/gf/net/ghttp.(*Server).Run
+    /Users/lo/go/pkg/mod/github.com/gogf/gf@v1.15.3/net/ghttp/ghttp_server.go:310
+7.  main.main
+    /Users/lo/Desktop/token/example/sample1/main.go:25
+
+2021-02-14 02:01:34.403 73620: http server started listening on [127.0.0.1:8082]
+
+  SERVER | DOMAIN  |    ADDRESS     | METHOD |       ROUTE       |                     HANDLER                      |                  MIDDLEWARE                   
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|----------------------------------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /login            | github.com/kotlin2018/token.(*GfToken).Login-fm  | main.CORS,token.(*GfToken).authMiddleware-fm  
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|----------------------------------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /system/user      | main.init2.func1.1                               | main.CORS,token.(*GfToken).authMiddleware-fm  
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|----------------------------------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /system/user/list | main.init2.func2.1                               | main.CORS                                     
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|----------------------------------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /user/logout      | github.com/kotlin2018/token.(*GfToken).Logout-fm | main.CORS,token.(*GfToken).authMiddleware-fm  
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|----------------------------------------------|
+
+2021-02-14 02:02:50.066 73620: all servers shutdown
+2021-02-14 02:02:52.296 73685: http server started listening on [127.0.0.1:8082]
+
+  SERVER | DOMAIN  |    ADDRESS     | METHOD |       ROUTE       |                     HANDLER                      |                  MIDDLEWARE                   
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|----------------------------------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /login            | github.com/kotlin2018/token.(*GfToken).Login-fm  | main.CORS,token.(*GfToken).authMiddleware-fm  
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|----------------------------------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /system/user      | main.init2.func1.1                               | main.CORS                                     
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|----------------------------------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /system/user/list | main.init2.func2.1                               | main.CORS,token.(*GfToken).authMiddleware-fm  
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|----------------------------------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /user/logout      | github.com/kotlin2018/token.(*GfToken).Logout-fm | main.CORS,token.(*GfToken).authMiddleware-fm  
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|----------------------------------------------|
+
+2021-02-14 02:03:43.480 73685: all servers shutdown
+2021-02-14 02:03:45.046 [FATA] duplicated route registry "ALL:/login" at /Users/lo/Desktop/token/gtoken_group.go:36 , already registered at /Users/lo/Desktop/token/gtoken_group.go:36 
+Stack:
+1.  github.com/gogf/gf/net/ghttp.(*Server).setHandler
+    /Users/lo/go/pkg/mod/github.com/gogf/gf@v1.15.3/net/ghttp/ghttp_server_router.go:90
+2.  github.com/gogf/gf/net/ghttp.(*Server).doBindHandler
+    /Users/lo/go/pkg/mod/github.com/gogf/gf@v1.15.3/net/ghttp/ghttp_server_service_handler.go:29
+3.  github.com/gogf/gf/net/ghttp.(*RouterGroup).doBindRoutersToServer
+    /Users/lo/go/pkg/mod/github.com/gogf/gf@v1.15.3/net/ghttp/ghttp_server_router_group.go:314
+4.  github.com/gogf/gf/net/ghttp.(*Server).handlePreBindItems
+    /Users/lo/go/pkg/mod/github.com/gogf/gf@v1.15.3/net/ghttp/ghttp_server_router_group.go:66
+5.  github.com/gogf/gf/net/ghttp.(*Server).Start
+    /Users/lo/go/pkg/mod/github.com/gogf/gf@v1.15.3/net/ghttp/ghttp_server.go:120
+6.  github.com/gogf/gf/net/ghttp.(*Server).Run
+    /Users/lo/go/pkg/mod/github.com/gogf/gf@v1.15.3/net/ghttp/ghttp_server.go:310
+7.  main.main
+    /Users/lo/Desktop/token/example/sample1/main.go:25
+
+
+  SERVER | DOMAIN  |    ADDRESS     | METHOD |       ROUTE       |      HANDLER       | MIDDLEWARE  
+|--------|---------|----------------|--------|-------------------|--------------------|------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /system/user      | main.init2.func1.1 | main.CORS   
+|--------|---------|----------------|--------|-------------------|--------------------|------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /system/user/list | main.init2.func2.1 | main.CORS   
+|--------|---------|----------------|--------|-------------------|--------------------|------------|
+
+2021-02-14 02:04:00.250 73766: http server started listening on [127.0.0.1:8082]
+2021-02-14 02:05:27.400 73766: all servers shutdown
+2021-02-14 02:05:29.315 73840: http server started listening on [127.0.0.1:8082]
+
+  SERVER | DOMAIN  |    ADDRESS     | METHOD |       ROUTE       |                     HANDLER                      |                  MIDDLEWARE                   
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|----------------------------------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /login            | github.com/kotlin2018/token.(*GfToken).Login-fm  | main.CORS,token.(*GfToken).authMiddleware-fm  
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|----------------------------------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /system/user      | main.init2.func1.1                               | main.CORS,token.(*GfToken).authMiddleware-fm  
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|----------------------------------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /system/user/list | main.init2.func2.1                               | main.CORS                                     
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|----------------------------------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /user/logout      | github.com/kotlin2018/token.(*GfToken).Logout-fm | main.CORS,token.(*GfToken).authMiddleware-fm  
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|----------------------------------------------|
+
+2021-02-14 02:10:06.718 73840: all servers shutdown
+2021-02-14 02:10:08.799 74016: http server started listening on [127.0.0.1:8082]
+
+  SERVER | DOMAIN  |    ADDRESS     | METHOD |       ROUTE       |                     HANDLER                      |                  MIDDLEWARE                   
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|----------------------------------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /login            | github.com/kotlin2018/token.(*GfToken).Login-fm  | main.CORS,token.(*GfToken).authMiddleware-fm  
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|----------------------------------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /system/user      | main.init2.func1.1                               | main.CORS,token.(*GfToken).authMiddleware-fm  
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|----------------------------------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /system/user/list | main.init2.func2.1                               | main.CORS                                     
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|----------------------------------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /user/logout      | github.com/kotlin2018/token.(*GfToken).Logout-fm | main.CORS,token.(*GfToken).authMiddleware-fm  
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|----------------------------------------------|
+
+2021-02-14 02:11:52.115 74016: all servers shutdown
+2021-02-14 02:11:54.181 74099: http server started listening on [127.0.0.1:8082]
+
+  SERVER | DOMAIN  |    ADDRESS     | METHOD |       ROUTE       |                     HANDLER                      |                  MIDDLEWARE                   
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|----------------------------------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /login            | github.com/kotlin2018/token.(*GfToken).Login-fm  | main.CORS,token.(*GfToken).authMiddleware-fm  
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|----------------------------------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /system/user      | main.init2.func1.1                               | main.CORS                                     
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|----------------------------------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /system/user/list | main.init2.func2.1                               | main.CORS,token.(*GfToken).authMiddleware-fm  
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|----------------------------------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /user/logout      | github.com/kotlin2018/token.(*GfToken).Logout-fm | main.CORS,token.(*GfToken).authMiddleware-fm  
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|----------------------------------------------|
+
+2021-02-14 02:12:53.596 74099: all servers shutdown
+2021-02-14 02:12:55.571 74155: http server started listening on [127.0.0.1:8082]
+
+  SERVER | DOMAIN  |    ADDRESS     | METHOD |       ROUTE       |                     HANDLER                      |                  MIDDLEWARE                   
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|----------------------------------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /login            | github.com/kotlin2018/token.(*GfToken).Login-fm  | main.CORS,token.(*GfToken).authMiddleware-fm  
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|----------------------------------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /system/user      | main.init2.func1.1                               | main.CORS                                     
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|----------------------------------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /system/user/list | main.init2.func2.1                               | main.CORS,token.(*GfToken).authMiddleware-fm  
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|----------------------------------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /user/logout      | github.com/kotlin2018/token.(*GfToken).Logout-fm | main.CORS,token.(*GfToken).authMiddleware-fm  
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|----------------------------------------------|
+
+2021-02-14 02:14:00.072 74155: all servers shutdown
+2021-02-14 02:14:02.151 [FATA] duplicated route registry "ALL:/login" at /Users/lo/Desktop/token/gtoken_group.go:36 , already registered at /Users/lo/Desktop/token/gtoken.go:226 
+Stack:
+1.  github.com/gogf/gf/net/ghttp.(*Server).setHandler
+    /Users/lo/go/pkg/mod/github.com/gogf/gf@v1.15.3/net/ghttp/ghttp_server_router.go:90
+2.  github.com/gogf/gf/net/ghttp.(*Server).doBindHandler
+    /Users/lo/go/pkg/mod/github.com/gogf/gf@v1.15.3/net/ghttp/ghttp_server_service_handler.go:29
+3.  github.com/gogf/gf/net/ghttp.(*RouterGroup).doBindRoutersToServer
+    /Users/lo/go/pkg/mod/github.com/gogf/gf@v1.15.3/net/ghttp/ghttp_server_router_group.go:314
+4.  github.com/gogf/gf/net/ghttp.(*Server).handlePreBindItems
+    /Users/lo/go/pkg/mod/github.com/gogf/gf@v1.15.3/net/ghttp/ghttp_server_router_group.go:66
+5.  github.com/gogf/gf/net/ghttp.(*Server).Start
+    /Users/lo/go/pkg/mod/github.com/gogf/gf@v1.15.3/net/ghttp/ghttp_server.go:120
+6.  github.com/gogf/gf/net/ghttp.(*Server).Run
+    /Users/lo/go/pkg/mod/github.com/gogf/gf@v1.15.3/net/ghttp/ghttp_server.go:310
+7.  main.main
+    /Users/lo/Desktop/token/example/sample1/main.go:25
+
+2021-02-14 02:14:30.837 74252: http server started listening on [127.0.0.1:8082]
+
+  SERVER | DOMAIN  |    ADDRESS     | METHOD |       ROUTE       |                         HANDLER                          |    MIDDLEWARE      
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /*                | github.com/kotlin2018/token.(*GfToken).authMiddleware-fm | GLOBAL MIDDLEWARE  
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /login            | github.com/kotlin2018/token.(*GfToken).Login-fm          |                    
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /system/user      | main.init2.func1.1                                       | main.CORS          
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /system/user/list | main.init2.func2.1                                       | main.CORS          
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /user/logout      | github.com/kotlin2018/token.(*GfToken).Logout-fm         |                    
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+
+2021-02-14 02:16:19.464 74252: all servers shutdown
+2021-02-14 02:16:21.416 74336: http server started listening on [127.0.0.1:8082]
+
+  SERVER | DOMAIN  |    ADDRESS     | METHOD |       ROUTE       |      HANDLER       | MIDDLEWARE  
+|--------|---------|----------------|--------|-------------------|--------------------|------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /system/user      | main.init2.func1.1 | main.CORS   
+|--------|---------|----------------|--------|-------------------|--------------------|------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /system/user/list | main.init2.func2.1 | main.CORS   
+|--------|---------|----------------|--------|-------------------|--------------------|------------|
+
+2021-02-14 02:17:27.250 74336: all servers shutdown
+
+  SERVER | DOMAIN  |    ADDRESS     | METHOD |       ROUTE       |      HANDLER       | MIDDLEWARE  
+|--------|---------|----------------|--------|-------------------|--------------------|------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /system/user      | main.init2.func1.1 | main.CORS   
+|--------|---------|----------------|--------|-------------------|--------------------|------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /system/user/list | main.init2.func2.1 | main.CORS   
+|--------|---------|----------------|--------|-------------------|--------------------|------------|
+
+2021-02-14 02:17:29.005 74392: http server started listening on [127.0.0.1:8082]
+2021-02-14 02:18:43.795 74392: all servers shutdown
+2021-02-14 02:18:45.672 74460: http server started listening on [127.0.0.1:8082]
+
+  SERVER | DOMAIN  |    ADDRESS     | METHOD |       ROUTE       |                         HANDLER                          |    MIDDLEWARE      
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /login            | github.com/kotlin2018/token.(*GfToken).Login-fm          |                    
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /system/*         | github.com/kotlin2018/token.(*GfToken).authMiddleware-fm | GLOBAL MIDDLEWARE  
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /system/user      | main.init2.func1.1                                       | main.CORS          
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /system/user/list | main.init2.func2.1                                       | main.CORS          
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /user/*           | github.com/kotlin2018/token.(*GfToken).authMiddleware-fm | GLOBAL MIDDLEWARE  
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /user/logout      | github.com/kotlin2018/token.(*GfToken).Logout-fm         |                    
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+
+2021-02-14 02:20:10.660 74460: all servers shutdown
+2021-02-14 02:20:12.610 74530: http server started listening on [127.0.0.1:8082]
+
+  SERVER | DOMAIN  |    ADDRESS     | METHOD |       ROUTE       |                         HANDLER                          |    MIDDLEWARE      
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /login            | github.com/kotlin2018/token.(*GfToken).Login-fm          |                    
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /system/*         | github.com/kotlin2018/token.(*GfToken).authMiddleware-fm | GLOBAL MIDDLEWARE  
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /system/user      | main.init2.func1.1                                       | main.CORS          
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /system/user/list | main.init2.func2.1                                       | main.CORS          
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /user/*           | github.com/kotlin2018/token.(*GfToken).authMiddleware-fm | GLOBAL MIDDLEWARE  
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /user/logout      | github.com/kotlin2018/token.(*GfToken).Logout-fm         |                    
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+
+2021-02-14 02:21:41.716 74530: all servers shutdown
+2021-02-14 02:21:43.774 74602: http server started listening on [127.0.0.1:8082]
+
+  SERVER | DOMAIN  |    ADDRESS     | METHOD |       ROUTE       |                         HANDLER                          |    MIDDLEWARE      
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /login            | github.com/kotlin2018/token.(*GfToken).Login-fm          |                    
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /system/*         | github.com/kotlin2018/token.(*GfToken).authMiddleware-fm | GLOBAL MIDDLEWARE  
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /system/user      | main.init2.func1.1                                       | main.CORS          
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /system/user/list | main.init2.func2.1                                       | main.CORS          
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /user/*           | github.com/kotlin2018/token.(*GfToken).authMiddleware-fm | GLOBAL MIDDLEWARE  
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /user/logout      | github.com/kotlin2018/token.(*GfToken).Logout-fm         |                    
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+
+2021-02-14 02:22:35.261 74602: all servers shutdown
+2021-02-14 02:22:37.140 [FATA] duplicated route registry "ALL:/login" at /Users/lo/Desktop/token/gtoken_group.go:36 , already registered at /Users/lo/Desktop/token/gtoken.go:226 
+Stack:
+1.  github.com/gogf/gf/net/ghttp.(*Server).setHandler
+    /Users/lo/go/pkg/mod/github.com/gogf/gf@v1.15.3/net/ghttp/ghttp_server_router.go:90
+2.  github.com/gogf/gf/net/ghttp.(*Server).doBindHandler
+    /Users/lo/go/pkg/mod/github.com/gogf/gf@v1.15.3/net/ghttp/ghttp_server_service_handler.go:29
+3.  github.com/gogf/gf/net/ghttp.(*RouterGroup).doBindRoutersToServer
+    /Users/lo/go/pkg/mod/github.com/gogf/gf@v1.15.3/net/ghttp/ghttp_server_router_group.go:314
+4.  github.com/gogf/gf/net/ghttp.(*Server).handlePreBindItems
+    /Users/lo/go/pkg/mod/github.com/gogf/gf@v1.15.3/net/ghttp/ghttp_server_router_group.go:66
+5.  github.com/gogf/gf/net/ghttp.(*Server).Start
+    /Users/lo/go/pkg/mod/github.com/gogf/gf@v1.15.3/net/ghttp/ghttp_server.go:120
+6.  github.com/gogf/gf/net/ghttp.(*Server).Run
+    /Users/lo/go/pkg/mod/github.com/gogf/gf@v1.15.3/net/ghttp/ghttp_server.go:310
+7.  main.main
+    /Users/lo/Desktop/token/example/sample1/main.go:25
+
+2021-02-14 02:23:00.778 [FATA] duplicated route registry "ALL:/login" at /Users/lo/Desktop/token/gtoken_group.go:36 , already registered at /Users/lo/Desktop/token/gtoken.go:226 
+Stack:
+1.  github.com/gogf/gf/net/ghttp.(*Server).setHandler
+    /Users/lo/go/pkg/mod/github.com/gogf/gf@v1.15.3/net/ghttp/ghttp_server_router.go:90
+2.  github.com/gogf/gf/net/ghttp.(*Server).doBindHandler
+    /Users/lo/go/pkg/mod/github.com/gogf/gf@v1.15.3/net/ghttp/ghttp_server_service_handler.go:29
+3.  github.com/gogf/gf/net/ghttp.(*RouterGroup).doBindRoutersToServer
+    /Users/lo/go/pkg/mod/github.com/gogf/gf@v1.15.3/net/ghttp/ghttp_server_router_group.go:314
+4.  github.com/gogf/gf/net/ghttp.(*Server).handlePreBindItems
+    /Users/lo/go/pkg/mod/github.com/gogf/gf@v1.15.3/net/ghttp/ghttp_server_router_group.go:66
+5.  github.com/gogf/gf/net/ghttp.(*Server).Start
+    /Users/lo/go/pkg/mod/github.com/gogf/gf@v1.15.3/net/ghttp/ghttp_server.go:120
+6.  github.com/gogf/gf/net/ghttp.(*Server).Run
+    /Users/lo/go/pkg/mod/github.com/gogf/gf@v1.15.3/net/ghttp/ghttp_server.go:310
+7.  main.main
+    /Users/lo/Desktop/token/example/sample1/main.go:25
+
+2021-02-14 02:24:12.884 74760: http server started listening on [127.0.0.1:8082]
+
+  SERVER | DOMAIN  |    ADDRESS     | METHOD |       ROUTE       |                     HANDLER                      |                  MIDDLEWARE                   
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|----------------------------------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /login            | github.com/kotlin2018/token.(*GfToken).Login-fm  | main.CORS,token.(*GfToken).authMiddleware-fm  
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|----------------------------------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /system/user      | main.init2.func1.1                               | main.CORS                                     
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|----------------------------------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /system/user/list | main.init2.func2.1                               | main.CORS,token.(*GfToken).authMiddleware-fm  
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|----------------------------------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /user/logout      | github.com/kotlin2018/token.(*GfToken).Logout-fm | main.CORS,token.(*GfToken).authMiddleware-fm  
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|----------------------------------------------|
+
+2021-02-14 02:25:55.396 74760: all servers shutdown
+2021-02-14 02:25:57.463 74844: http server started listening on [127.0.0.1:8082]
+
+  SERVER | DOMAIN  |    ADDRESS     | METHOD |       ROUTE       |                     HANDLER                      |                  MIDDLEWARE                   
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|----------------------------------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /login            | github.com/kotlin2018/token.(*GfToken).Login-fm  | main.CORS,token.(*GfToken).authMiddleware-fm  
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|----------------------------------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /system/user      | main.init2.func1.1                               | main.CORS                                     
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|----------------------------------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /system/user/list | main.init2.func2.1                               | main.CORS,token.(*GfToken).authMiddleware-fm  
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|----------------------------------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /user/logout      | github.com/kotlin2018/token.(*GfToken).Logout-fm | main.CORS,token.(*GfToken).authMiddleware-fm  
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|----------------------------------------------|
+
+2021-02-14 02:26:31.823 74844: all servers shutdown
+2021-02-14 02:26:33.544 [FATA] duplicated route registry "ALL:/login" at /Users/lo/Desktop/token/gtoken_group.go:36 , already registered at /Users/lo/Desktop/token/gtoken_group.go:36 
+Stack:
+1.  github.com/gogf/gf/net/ghttp.(*Server).setHandler
+    /Users/lo/go/pkg/mod/github.com/gogf/gf@v1.15.3/net/ghttp/ghttp_server_router.go:90
+2.  github.com/gogf/gf/net/ghttp.(*Server).doBindHandler
+    /Users/lo/go/pkg/mod/github.com/gogf/gf@v1.15.3/net/ghttp/ghttp_server_service_handler.go:29
+3.  github.com/gogf/gf/net/ghttp.(*RouterGroup).doBindRoutersToServer
+    /Users/lo/go/pkg/mod/github.com/gogf/gf@v1.15.3/net/ghttp/ghttp_server_router_group.go:314
+4.  github.com/gogf/gf/net/ghttp.(*Server).handlePreBindItems
+    /Users/lo/go/pkg/mod/github.com/gogf/gf@v1.15.3/net/ghttp/ghttp_server_router_group.go:66
+5.  github.com/gogf/gf/net/ghttp.(*Server).Start
+    /Users/lo/go/pkg/mod/github.com/gogf/gf@v1.15.3/net/ghttp/ghttp_server.go:120
+6.  github.com/gogf/gf/net/ghttp.(*Server).Run
+    /Users/lo/go/pkg/mod/github.com/gogf/gf@v1.15.3/net/ghttp/ghttp_server.go:310
+7.  main.main
+    /Users/lo/Desktop/token/example/sample1/main.go:25
+
+2021-02-14 02:26:50.889 74919: http server started listening on [127.0.0.1:8082]
+
+  SERVER | DOMAIN  |    ADDRESS     | METHOD |       ROUTE       |                     HANDLER                      |                  MIDDLEWARE                   
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|----------------------------------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /login            | github.com/kotlin2018/token.(*GfToken).Login-fm  | main.CORS,token.(*GfToken).authMiddleware-fm  
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|----------------------------------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /system/user      | main.init2.func1.1                               | main.CORS,token.(*GfToken).authMiddleware-fm  
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|----------------------------------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /system/user/list | main.init2.func2.1                               | main.CORS                                     
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|----------------------------------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /user/logout      | github.com/kotlin2018/token.(*GfToken).Logout-fm | main.CORS,token.(*GfToken).authMiddleware-fm  
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|----------------------------------------------|
+
+2021-02-14 02:27:17.951 74919: all servers shutdown
+2021-02-14 02:27:19.845 [FATA] duplicated route registry "ALL:/login" at /Users/lo/Desktop/token/gtoken_group.go:36 , already registered at /Users/lo/Desktop/token/gtoken.go:226 
+Stack:
+1.  github.com/gogf/gf/net/ghttp.(*Server).setHandler
+    /Users/lo/go/pkg/mod/github.com/gogf/gf@v1.15.3/net/ghttp/ghttp_server_router.go:90
+2.  github.com/gogf/gf/net/ghttp.(*Server).doBindHandler
+    /Users/lo/go/pkg/mod/github.com/gogf/gf@v1.15.3/net/ghttp/ghttp_server_service_handler.go:29
+3.  github.com/gogf/gf/net/ghttp.(*RouterGroup).doBindRoutersToServer
+    /Users/lo/go/pkg/mod/github.com/gogf/gf@v1.15.3/net/ghttp/ghttp_server_router_group.go:314
+4.  github.com/gogf/gf/net/ghttp.(*Server).handlePreBindItems
+    /Users/lo/go/pkg/mod/github.com/gogf/gf@v1.15.3/net/ghttp/ghttp_server_router_group.go:66
+5.  github.com/gogf/gf/net/ghttp.(*Server).Start
+    /Users/lo/go/pkg/mod/github.com/gogf/gf@v1.15.3/net/ghttp/ghttp_server.go:120
+6.  github.com/gogf/gf/net/ghttp.(*Server).Run
+    /Users/lo/go/pkg/mod/github.com/gogf/gf@v1.15.3/net/ghttp/ghttp_server.go:310
+7.  main.main
+    /Users/lo/Desktop/token/example/sample1/main.go:25
+
+2021-02-14 02:27:39.964 74992: http server started listening on [127.0.0.1:8082]
+
+  SERVER | DOMAIN  |    ADDRESS     | METHOD |       ROUTE       |                         HANDLER                          |    MIDDLEWARE      
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /login            | github.com/kotlin2018/token.(*GfToken).Login-fm          |                    
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /system/*         | github.com/kotlin2018/token.(*GfToken).authMiddleware-fm | GLOBAL MIDDLEWARE  
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /system/user      | main.init2.func1.1                                       | main.CORS          
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /system/user/list | main.init2.func2.1                                       | main.CORS          
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /user/*           | github.com/kotlin2018/token.(*GfToken).authMiddleware-fm | GLOBAL MIDDLEWARE  
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /user/logout      | github.com/kotlin2018/token.(*GfToken).Logout-fm         |                    
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+
+2021-02-14 02:31:13.332 74992: all servers shutdown
+2021-02-14 02:31:15.301 75130: http server started listening on [127.0.0.1:8082]
+
+  SERVER | DOMAIN  |    ADDRESS     | METHOD |       ROUTE       |                     HANDLER                      |                  MIDDLEWARE                   
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|----------------------------------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /base/login       | github.com/kotlin2018/token.(*GfToken).Login-fm  | main.CORS,token.(*GfToken).authMiddleware-fm  
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|----------------------------------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /base/system/user | main.init2.func1.1                               | main.CORS,token.(*GfToken).authMiddleware-fm  
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|----------------------------------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /base/user/logout | github.com/kotlin2018/token.(*GfToken).Logout-fm | main.CORS,token.(*GfToken).authMiddleware-fm  
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|----------------------------------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /login            | github.com/kotlin2018/token.(*GfToken).Login-fm  | main.CORS,token.(*GfToken).authMiddleware-fm  
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|----------------------------------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /system/user/list | main.init2.func2.1                               | main.CORS,token.(*GfToken).authMiddleware-fm  
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|----------------------------------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /user/logout      | github.com/kotlin2018/token.(*GfToken).Logout-fm | main.CORS,token.(*GfToken).authMiddleware-fm  
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|----------------------------------------------|
+
+2021-02-14 02:32:51.507 75130: all servers shutdown
+2021-02-14 03:17:11.886 76629: http server started listening on [127.0.0.1:8082]
+
+  SERVER | DOMAIN  |    ADDRESS     | METHOD |         ROUTE          |                         HANDLER                          |    MIDDLEWARE      
+|--------|---------|----------------|--------|------------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /base/hello            | main.global.func1.1                                      | token.CORS         
+|--------|---------|----------------|--------|------------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /base/system/user      | main.global.func1.2                                      | token.CORS         
+|--------|---------|----------------|--------|------------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /base/system/user/info | main.global.func1.4                                      | token.CORS         
+|--------|---------|----------------|--------|------------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /base/user/info        | main.global.func1.3                                      | token.CORS         
+|--------|---------|----------------|--------|------------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /login                 | github.com/kotlin2018/token.(*GfToken).Login-fm          |                    
+|--------|---------|----------------|--------|------------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /system/*              | github.com/kotlin2018/token.(*GfToken).authMiddleware-fm | GLOBAL MIDDLEWARE  
+|--------|---------|----------------|--------|------------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /system/user           | main.global.func2.1                                      | token.CORS         
+|--------|---------|----------------|--------|------------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /user/*                | github.com/kotlin2018/token.(*GfToken).authMiddleware-fm | GLOBAL MIDDLEWARE  
+|--------|---------|----------------|--------|------------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /user/logout           | github.com/kotlin2018/token.(*GfToken).Logout-fm         |                    
+|--------|---------|----------------|--------|------------------------|----------------------------------------------------------|-------------------|
+
+2021-02-14 03:19:33.023 76629: all servers shutdown
+2021-02-14 03:19:35.207 76730: http server started listening on [127.0.0.1:8082]
+
+  SERVER | DOMAIN  |    ADDRESS     | METHOD |         ROUTE          |                         HANDLER                          |    MIDDLEWARE      
+|--------|---------|----------------|--------|------------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /base/hello            | main.global.func1.1                                      | token.CORS         
+|--------|---------|----------------|--------|------------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /base/system/user      | main.global.func1.2                                      | token.CORS         
+|--------|---------|----------------|--------|------------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /base/system/user/info | main.global.func1.4                                      | token.CORS         
+|--------|---------|----------------|--------|------------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /base/user/info        | main.global.func1.3                                      | token.CORS         
+|--------|---------|----------------|--------|------------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /login                 | github.com/kotlin2018/token.(*GfToken).Login-fm          |                    
+|--------|---------|----------------|--------|------------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /system/*              | github.com/kotlin2018/token.(*GfToken).authMiddleware-fm | GLOBAL MIDDLEWARE  
+|--------|---------|----------------|--------|------------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /system/user           | main.global.func2.1                                      | token.CORS         
+|--------|---------|----------------|--------|------------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /user/*                | github.com/kotlin2018/token.(*GfToken).authMiddleware-fm | GLOBAL MIDDLEWARE  
+|--------|---------|----------------|--------|------------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /user/logout           | github.com/kotlin2018/token.(*GfToken).Logout-fm         |                    
+|--------|---------|----------------|--------|------------------------|----------------------------------------------------------|-------------------|
+
+2021-02-14 03:20:29.997 76730: all servers shutdown
+2021-02-14 03:20:31.823 76784: http server started listening on [127.0.0.1:8082]
+
+  SERVER | DOMAIN  |    ADDRESS     | METHOD |       ROUTE       |                         HANDLER                          |    MIDDLEWARE      
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /hello            | main.global.func1.1                                      | token.CORS         
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /login            | github.com/kotlin2018/token.(*GfToken).Login-fm          |                    
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /system/*         | github.com/kotlin2018/token.(*GfToken).authMiddleware-fm | GLOBAL MIDDLEWARE  
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /system/user      | main.global.func1.2                                      | token.CORS         
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /system/user/info | main.global.func1.4                                      | token.CORS         
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /user/*           | github.com/kotlin2018/token.(*GfToken).authMiddleware-fm | GLOBAL MIDDLEWARE  
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /user/info        | main.global.func1.3                                      | token.CORS         
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /user/logout      | github.com/kotlin2018/token.(*GfToken).Logout-fm         |                    
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+
+2021-02-14 03:21:44.236 76784: all servers shutdown
+2021-02-14 03:21:46.230 76849: http server started listening on [127.0.0.1:8082]
+
+  SERVER | DOMAIN  |    ADDRESS     | METHOD |       ROUTE       |                         HANDLER                          |    MIDDLEWARE      
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /hello            | main.global.func1.1                                      | token.CORS         
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /login            | github.com/kotlin2018/token.(*GfToken).Login-fm          |                    
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /system/*         | github.com/kotlin2018/token.(*GfToken).authMiddleware-fm | GLOBAL MIDDLEWARE  
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /system/user      | main.global.func1.2                                      | token.CORS         
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /system/user/info | main.global.func1.4                                      | token.CORS         
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /user/*           | github.com/kotlin2018/token.(*GfToken).authMiddleware-fm | GLOBAL MIDDLEWARE  
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /user/info        | main.global.func1.3                                      | token.CORS         
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /user/logout      | github.com/kotlin2018/token.(*GfToken).Logout-fm         |                    
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+
+2021-02-14 03:25:16.199 76849: all servers shutdown
+2021-02-14 03:25:18.135 77003: http server started listening on [127.0.0.1:8082]
+
+  SERVER | DOMAIN  |    ADDRESS     | METHOD |       ROUTE       |                         HANDLER                          |    MIDDLEWARE      
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /hello            | main.global.func1.1                                      | token.CORS         
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /login            | github.com/kotlin2018/token.(*GfToken).Login-fm          |                    
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /system/*         | github.com/kotlin2018/token.(*GfToken).authMiddleware-fm | GLOBAL MIDDLEWARE  
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /system/user      | main.global.func1.2                                      | token.CORS         
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /system/user/info | main.global.func1.4                                      | token.CORS         
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /user/*           | github.com/kotlin2018/token.(*GfToken).authMiddleware-fm | GLOBAL MIDDLEWARE  
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /user/info        | main.global.func1.3                                      | token.CORS         
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /user/logout      | github.com/kotlin2018/token.(*GfToken).Logout-fm         |                    
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+
+2021-02-14 03:26:26.836 77003: all servers shutdown
+2021-02-14 03:26:28.900 77067: http server started listening on [127.0.0.1:8082]
+
+  SERVER | DOMAIN  |    ADDRESS     | METHOD |       ROUTE       |                         HANDLER                          |    MIDDLEWARE      
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /hello            | main.global.func1.1                                      | token.CORS         
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /login            | github.com/kotlin2018/token.(*GfToken).Login-fm          |                    
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /system/*         | github.com/kotlin2018/token.(*GfToken).authMiddleware-fm | GLOBAL MIDDLEWARE  
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /system/user      | main.global.func1.2                                      | token.CORS         
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /system/user/info | main.global.func1.4                                      | token.CORS         
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /user/*           | github.com/kotlin2018/token.(*GfToken).authMiddleware-fm | GLOBAL MIDDLEWARE  
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /user/info        | main.global.func1.3                                      | token.CORS         
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /user/logout      | github.com/kotlin2018/token.(*GfToken).Logout-fm         |                    
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+
+2021-02-14 03:27:28.915 77067: all servers shutdown
+2021-02-14 03:27:30.793 77123: http server started listening on [127.0.0.1:8082]
+
+  SERVER | DOMAIN  |    ADDRESS     | METHOD |       ROUTE       |                         HANDLER                          |    MIDDLEWARE      
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /hello            | main.global.func1.1                                      | token.CORS         
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /system/*         | github.com/kotlin2018/token.(*GfToken).authMiddleware-fm | GLOBAL MIDDLEWARE  
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /system/user      | main.global.func1.2                                      | token.CORS         
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /system/user/info | main.global.func1.4                                      | token.CORS         
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /user/*           | github.com/kotlin2018/token.(*GfToken).authMiddleware-fm | GLOBAL MIDDLEWARE  
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /user/info        | main.global.func1.3                                      | token.CORS         
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+
+2021-02-14 03:27:57.308 77123: all servers shutdown
+2021-02-14 03:30:09.372 77237: http server started listening on [127.0.0.1:8082]
+
+  SERVER | DOMAIN  |    ADDRESS     | METHOD |       ROUTE       |       HANDLER       | MIDDLEWARE  
+|--------|---------|----------------|--------|-------------------|---------------------|------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /hello            | main.global.func1.1 | token.CORS  
+|--------|---------|----------------|--------|-------------------|---------------------|------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /system/user      | main.global.func1.2 | token.CORS  
+|--------|---------|----------------|--------|-------------------|---------------------|------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /system/user/info | main.global.func1.4 | token.CORS  
+|--------|---------|----------------|--------|-------------------|---------------------|------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /user/info        | main.global.func1.3 | token.CORS  
+|--------|---------|----------------|--------|-------------------|---------------------|------------|
+
+2021-02-14 03:30:54.091 77237: all servers shutdown
+2021-02-14 03:30:55.862 77290: http server started listening on [127.0.0.1:8082]
+
+  SERVER | DOMAIN  |    ADDRESS     | METHOD |       ROUTE       |                     HANDLER                      |                  MIDDLEWARE                    
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|-----------------------------------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /base/login       | github.com/kotlin2018/token.(*GfToken).Login-fm  | token.CORS,token.(*GfToken).authMiddleware-fm  
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|-----------------------------------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /base/system/user | main.group.func1.1                               | token.CORS,token.(*GfToken).authMiddleware-fm  
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|-----------------------------------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /base/user/logout | github.com/kotlin2018/token.(*GfToken).Logout-fm | token.CORS,token.(*GfToken).authMiddleware-fm  
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|-----------------------------------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /login            | github.com/kotlin2018/token.(*GfToken).Login-fm  | token.CORS,token.(*GfToken).authMiddleware-fm  
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|-----------------------------------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /system/user/list | main.group.func2.1                               | token.CORS,token.(*GfToken).authMiddleware-fm  
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|-----------------------------------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /user/logout      | github.com/kotlin2018/token.(*GfToken).Logout-fm | token.CORS,token.(*GfToken).authMiddleware-fm  
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|-----------------------------------------------|
+
+2021-02-14 03:32:17.912 77290: all servers shutdown
+2021-02-14 03:32:19.535 77357: http server started listening on [127.0.0.1:8082]
+
+  SERVER | DOMAIN  |    ADDRESS     | METHOD |       ROUTE       |                     HANDLER                      |                  MIDDLEWARE                    
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|-----------------------------------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /base/login       | github.com/kotlin2018/token.(*GfToken).Login-fm  | token.CORS,token.(*GfToken).authMiddleware-fm  
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|-----------------------------------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /base/system/user | main.group.func1.1                               | token.CORS,token.(*GfToken).authMiddleware-fm  
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|-----------------------------------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /base/user/logout | github.com/kotlin2018/token.(*GfToken).Logout-fm | token.CORS,token.(*GfToken).authMiddleware-fm  
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|-----------------------------------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /login            | github.com/kotlin2018/token.(*GfToken).Login-fm  | token.CORS,token.(*GfToken).authMiddleware-fm  
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|-----------------------------------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /system/user/list | main.group.func2.1                               | token.CORS,token.(*GfToken).authMiddleware-fm  
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|-----------------------------------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /user/logout      | github.com/kotlin2018/token.(*GfToken).Logout-fm | token.CORS,token.(*GfToken).authMiddleware-fm  
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|-----------------------------------------------|
+
+2021-02-14 03:32:25.632 77357: all servers shutdown
+2021-02-14 03:32:27.252 77383: http server started listening on [127.0.0.1:8082]
+
+  SERVER | DOMAIN  |    ADDRESS     | METHOD |       ROUTE       |                     HANDLER                      |                  MIDDLEWARE                    
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|-----------------------------------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /base/login       | github.com/kotlin2018/token.(*GfToken).Login-fm  | token.CORS,token.(*GfToken).authMiddleware-fm  
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|-----------------------------------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /base/system/user | main.group.func1.1                               | token.CORS,token.(*GfToken).authMiddleware-fm  
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|-----------------------------------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /base/user/logout | github.com/kotlin2018/token.(*GfToken).Logout-fm | token.CORS,token.(*GfToken).authMiddleware-fm  
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|-----------------------------------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /login            | github.com/kotlin2018/token.(*GfToken).Login-fm  | token.CORS,token.(*GfToken).authMiddleware-fm  
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|-----------------------------------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /system/user/list | main.group.func2.1                               | token.CORS,token.(*GfToken).authMiddleware-fm  
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|-----------------------------------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /user/logout      | github.com/kotlin2018/token.(*GfToken).Logout-fm | token.CORS,token.(*GfToken).authMiddleware-fm  
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|-----------------------------------------------|
+
+2021-02-14 03:34:03.905 77383: all servers shutdown
+2021-02-14 03:34:06.020 77457: http server started listening on [127.0.0.1:8082]
+
+  SERVER | DOMAIN  |    ADDRESS     | METHOD |       ROUTE       |                     HANDLER                      |                  MIDDLEWARE                    
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|-----------------------------------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /base/login       | github.com/kotlin2018/token.(*GfToken).Login-fm  | token.CORS,token.(*GfToken).authMiddleware-fm  
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|-----------------------------------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /base/system/user | main.group.func1.1                               | token.CORS,token.(*GfToken).authMiddleware-fm  
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|-----------------------------------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /base/user/logout | github.com/kotlin2018/token.(*GfToken).Logout-fm | token.CORS,token.(*GfToken).authMiddleware-fm  
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|-----------------------------------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /login            | github.com/kotlin2018/token.(*GfToken).Login-fm  | token.CORS,token.(*GfToken).authMiddleware-fm  
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|-----------------------------------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /system/user/list | main.group.func2.1                               | token.CORS,token.(*GfToken).authMiddleware-fm  
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|-----------------------------------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /user/logout      | github.com/kotlin2018/token.(*GfToken).Logout-fm | token.CORS,token.(*GfToken).authMiddleware-fm  
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|-----------------------------------------------|
+
+2021-02-14 03:35:56.128 77457: all servers shutdown
+2021-02-14 03:35:58.346 77562: http server started listening on [127.0.0.1:8082]
+
+  SERVER | DOMAIN  |    ADDRESS     | METHOD |       ROUTE       |                     HANDLER                      |                  MIDDLEWARE                    
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|-----------------------------------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /base/login       | github.com/kotlin2018/token.(*GfToken).Login-fm  | token.CORS,token.(*GfToken).authMiddleware-fm  
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|-----------------------------------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /base/system/user | main.group.func1.1                               | token.CORS,token.(*GfToken).authMiddleware-fm  
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|-----------------------------------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /base/user/logout | github.com/kotlin2018/token.(*GfToken).Logout-fm | token.CORS,token.(*GfToken).authMiddleware-fm  
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|-----------------------------------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /login            | github.com/kotlin2018/token.(*GfToken).Login-fm  | token.CORS,token.(*GfToken).authMiddleware-fm  
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|-----------------------------------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /system/user/list | main.group.func2.1                               | token.CORS,token.(*GfToken).authMiddleware-fm  
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|-----------------------------------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /user/logout      | github.com/kotlin2018/token.(*GfToken).Logout-fm | token.CORS,token.(*GfToken).authMiddleware-fm  
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|-----------------------------------------------|
+
+2021-02-14 03:36:56.716 77562: all servers shutdown
+2021-02-14 03:36:58.654 77620: http server started listening on [127.0.0.1:8082]
+
+  SERVER | DOMAIN  |    ADDRESS     | METHOD |       ROUTE       |                     HANDLER                      |                  MIDDLEWARE                    
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|-----------------------------------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /base/login       | github.com/kotlin2018/token.(*GfToken).Login-fm  | token.CORS,token.(*GfToken).authMiddleware-fm  
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|-----------------------------------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /base/system/user | main.group.func1.1                               | token.CORS,token.(*GfToken).authMiddleware-fm  
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|-----------------------------------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /base/user/logout | github.com/kotlin2018/token.(*GfToken).Logout-fm | token.CORS,token.(*GfToken).authMiddleware-fm  
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|-----------------------------------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /login            | github.com/kotlin2018/token.(*GfToken).Login-fm  | token.CORS,token.(*GfToken).authMiddleware-fm  
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|-----------------------------------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /system/user/list | main.group.func2.1                               | token.CORS,token.(*GfToken).authMiddleware-fm  
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|-----------------------------------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /user/logout      | github.com/kotlin2018/token.(*GfToken).Logout-fm | token.CORS,token.(*GfToken).authMiddleware-fm  
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|-----------------------------------------------|
+
+2021-02-14 03:38:24.757 77620: all servers shutdown
+2021-02-14 03:38:26.624 77690: http server started listening on [127.0.0.1:8082]
+
+  SERVER | DOMAIN  |    ADDRESS     | METHOD |       ROUTE       |                     HANDLER                      |                  MIDDLEWARE                    
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|-----------------------------------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /base/login       | github.com/kotlin2018/token.(*GfToken).Login-fm  | token.CORS,token.(*GfToken).authMiddleware-fm  
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|-----------------------------------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /base/system/user | main.group.func1.1                               | token.CORS,token.(*GfToken).authMiddleware-fm  
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|-----------------------------------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /base/user/logout | github.com/kotlin2018/token.(*GfToken).Logout-fm | token.CORS,token.(*GfToken).authMiddleware-fm  
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|-----------------------------------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /login            | github.com/kotlin2018/token.(*GfToken).Login-fm  | token.CORS,token.(*GfToken).authMiddleware-fm  
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|-----------------------------------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /system/user/list | main.group.func2.1                               | token.CORS,token.(*GfToken).authMiddleware-fm  
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|-----------------------------------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /user/logout      | github.com/kotlin2018/token.(*GfToken).Logout-fm | token.CORS,token.(*GfToken).authMiddleware-fm  
+|--------|---------|----------------|--------|-------------------|--------------------------------------------------|-----------------------------------------------|
+
+2021-02-14 03:42:01.045 77690: all servers shutdown
+2021-02-14 03:42:03.098 77829: http server started listening on [127.0.0.1:8082]
+
+  SERVER | DOMAIN  |    ADDRESS     | METHOD |       ROUTE       |                         HANDLER                          |    MIDDLEWARE      
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /*                | github.com/kotlin2018/token.(*GfToken).authMiddleware-fm | GLOBAL MIDDLEWARE  
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /hello            | main.global.func1.1                                      | token.CORS         
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /login            | github.com/kotlin2018/token.(*GfToken).Login-fm          |                    
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /system/user      | main.global.func1.2                                      | token.CORS         
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /system/user/info | main.global.func1.4                                      | token.CORS         
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /user/info        | main.global.func1.3                                      | token.CORS         
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /user/logout      | github.com/kotlin2018/token.(*GfToken).Logout-fm         |                    
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+
+2021-02-14 03:44:10.334 77829: all servers shutdown
+2021-02-14 03:44:12.429 77924: http server started listening on [127.0.0.1:8082]
+
+  SERVER | DOMAIN  |    ADDRESS     | METHOD |       ROUTE       |                         HANDLER                          |    MIDDLEWARE      
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /*                | github.com/kotlin2018/token.(*GfToken).authMiddleware-fm | GLOBAL MIDDLEWARE  
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /hello            | main.global.func1.1                                      | token.CORS         
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /login            | github.com/kotlin2018/token.(*GfToken).Login-fm          |                    
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /system/user      | main.global.func1.2                                      | token.CORS         
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /system/user/info | main.global.func1.4                                      | token.CORS         
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /user/info        | main.global.func1.3                                      | token.CORS         
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /user/logout      | github.com/kotlin2018/token.(*GfToken).Logout-fm         |                    
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+
+2021-02-14 03:48:17.692 77924: all servers shutdown
+2021-02-14 03:48:19.661 78087: http server started listening on [127.0.0.1:8082]
+
+  SERVER | DOMAIN  |    ADDRESS     | METHOD |       ROUTE       |                         HANDLER                          |    MIDDLEWARE      
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /*                | github.com/kotlin2018/token.(*GfToken).authMiddleware-fm | GLOBAL MIDDLEWARE  
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /hello            | main.global.func1.1                                      | token.CORS         
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /login            | github.com/kotlin2018/token.(*GfToken).Login-fm          |                    
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /system/user      | main.global.func1.2                                      | token.CORS         
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /system/user/info | main.global.func1.4                                      | token.CORS         
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /user/info        | main.global.func1.3                                      | token.CORS         
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /user/logout      | github.com/kotlin2018/token.(*GfToken).Logout-fm         |                    
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+
+2021-02-14 03:49:13.744 78087: all servers shutdown
+2021-02-14 03:49:15.612 78140: http server started listening on [127.0.0.1:8082]
+
+  SERVER | DOMAIN  |    ADDRESS     | METHOD |       ROUTE       |                         HANDLER                          |    MIDDLEWARE      
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /*                | github.com/kotlin2018/token.(*GfToken).authMiddleware-fm | GLOBAL MIDDLEWARE  
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /hello            | main.global.func1.1                                      | token.CORS         
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /login            | github.com/kotlin2018/token.(*GfToken).Login-fm          |                    
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /system/user      | main.global.func1.2                                      | token.CORS         
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /system/user/info | main.global.func1.4                                      | token.CORS         
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /user/info        | main.global.func1.3                                      | token.CORS         
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /user/logout      | github.com/kotlin2018/token.(*GfToken).Logout-fm         |                    
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+
+2021-02-14 03:51:17.160 78140: all servers shutdown
+2021-02-14 03:51:19.114 78229: http server started listening on [127.0.0.1:8082]
+
+  SERVER | DOMAIN  |    ADDRESS     | METHOD |       ROUTE       |                         HANDLER                          |    MIDDLEWARE      
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /*                | github.com/kotlin2018/token.(*GfToken).authMiddleware-fm | GLOBAL MIDDLEWARE  
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /base/system/user | main.global.func2.1                                      | token.CORS         
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /hello            | main.global.func1.1                                      | token.CORS         
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /login            | github.com/kotlin2018/token.(*GfToken).Login-fm          |                    
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /system/user      | main.global.func1.2                                      | token.CORS         
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /system/user/info | main.global.func1.4                                      | token.CORS         
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /user/info        | main.global.func1.3                                      | token.CORS         
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /user/logout      | github.com/kotlin2018/token.(*GfToken).Logout-fm         |                    
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+
+2021-02-14 03:54:26.965 78229: all servers shutdown
+2021-02-14 03:54:29.085 78367: http server started listening on [127.0.0.1:8082]
+
+  SERVER | DOMAIN  |    ADDRESS     | METHOD |       ROUTE       |                         HANDLER                          |    MIDDLEWARE      
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /base/system/user | main.global.func2.1                                      | token.CORS         
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /hello            | main.global.func1.1                                      | token.CORS         
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /login            | github.com/kotlin2018/token.(*GfToken).Login-fm          |                    
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /system/*         | github.com/kotlin2018/token.(*GfToken).authMiddleware-fm | GLOBAL MIDDLEWARE  
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /system/user      | main.global.func1.2                                      | token.CORS         
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /system/user/info | main.global.func1.4                                      | token.CORS         
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /user/*           | github.com/kotlin2018/token.(*GfToken).authMiddleware-fm | GLOBAL MIDDLEWARE  
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /user/info        | main.global.func1.3                                      | token.CORS         
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /user/logout      | github.com/kotlin2018/token.(*GfToken).Logout-fm         |                    
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+
+2021-02-14 03:57:09.318 78367: all servers shutdown
+2021-02-14 03:57:11.389 78480: http server started listening on [127.0.0.1:8082]
+
+  SERVER | DOMAIN  |    ADDRESS     | METHOD |       ROUTE       |                         HANDLER                          |    MIDDLEWARE      
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /base/system/user | main.global.func2.1                                      | token.CORS         
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /hello            | main.global.func1.1                                      | token.CORS         
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /login            | github.com/kotlin2018/token.(*GfToken).Login-fm          |                    
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /system/*         | github.com/kotlin2018/token.(*GfToken).authMiddleware-fm | GLOBAL MIDDLEWARE  
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /system/user      | main.global.func1.2                                      | token.CORS         
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /system/user/info | main.global.func1.4                                      | token.CORS         
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /user/*           | github.com/kotlin2018/token.(*GfToken).authMiddleware-fm | GLOBAL MIDDLEWARE  
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /user/info        | main.global.func1.3                                      | token.CORS         
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+  gtoken | default | 127.0.0.1:8082 | ALL    | /user/logout      | github.com/kotlin2018/token.(*GfToken).Logout-fm         |                    
+|--------|---------|----------------|--------|-------------------|----------------------------------------------------------|-------------------|
+
+2021-02-14 04:21:34.275 79244: http server started listening on [127.0.0.1:8081]
+
+  SERVER | DOMAIN  |    ADDRESS     | METHOD |          ROUTE          |                     HANDLER                      |                  MIDDLEWARE                    
+|--------|---------|----------------|--------|-------------------------|--------------------------------------------------|-----------------------------------------------|
+  gtoken | default | 127.0.0.1:8081 | ALL    | /admin/login            | github.com/kotlin2018/token.(*GfToken).Login-fm  | token.CORS,token.(*GfToken).authMiddleware-fm  
+|--------|---------|----------------|--------|-------------------------|--------------------------------------------------|-----------------------------------------------|
+  gtoken | default | 127.0.0.1:8081 | ALL    | /admin/system/user      | main.auth.func2.1                                | token.CORS,token.(*GfToken).authMiddleware-fm  
+|--------|---------|----------------|--------|-------------------------|--------------------------------------------------|-----------------------------------------------|
+  gtoken | default | 127.0.0.1:8081 | ALL    | /admin/system/user/info | main.auth.func2.3                                | token.CORS,token.(*GfToken).authMiddleware-fm  
+|--------|---------|----------------|--------|-------------------------|--------------------------------------------------|-----------------------------------------------|
+  gtoken | default | 127.0.0.1:8081 | ALL    | /admin/user/info        | main.auth.func2.2                                | token.CORS,token.(*GfToken).authMiddleware-fm  
+|--------|---------|----------------|--------|-------------------------|--------------------------------------------------|-----------------------------------------------|
+  gtoken | default | 127.0.0.1:8081 | ALL    | /admin/user/logout      | github.com/kotlin2018/token.(*GfToken).Logout-fm | token.CORS,token.(*GfToken).authMiddleware-fm  
+|--------|---------|----------------|--------|-------------------------|--------------------------------------------------|-----------------------------------------------|
+  gtoken | default | 127.0.0.1:8081 | ALL    | /hello                  | main.unAuth.func1.1                              | token.CORS                                     
+|--------|---------|----------------|--------|-------------------------|--------------------------------------------------|-----------------------------------------------|
+  gtoken | default | 127.0.0.1:8081 | ALL    | /login                  | github.com/kotlin2018/token.(*GfToken).Login-fm  | token.CORS,token.(*GfToken).authMiddleware-fm  
+|--------|---------|----------------|--------|-------------------------|--------------------------------------------------|-----------------------------------------------|
+  gtoken | default | 127.0.0.1:8081 | ALL    | /system/user            | main.auth.func1.1                                | token.CORS,token.(*GfToken).authMiddleware-fm  
+|--------|---------|----------------|--------|-------------------------|--------------------------------------------------|-----------------------------------------------|
+  gtoken | default | 127.0.0.1:8081 | ALL    | /system/user/info       | main.auth.func1.4                                | token.CORS,token.(*GfToken).authMiddleware-fm  
+|--------|---------|----------------|--------|-------------------------|--------------------------------------------------|-----------------------------------------------|
+  gtoken | default | 127.0.0.1:8081 | ALL    | /user/data              | main.auth.func1.2                                | token.CORS,token.(*GfToken).authMiddleware-fm  
+|--------|---------|----------------|--------|-------------------------|--------------------------------------------------|-----------------------------------------------|
+  gtoken | default | 127.0.0.1:8081 | ALL    | /user/info              | main.auth.func1.3                                | token.CORS,token.(*GfToken).authMiddleware-fm  
+|--------|---------|----------------|--------|-------------------------|--------------------------------------------------|-----------------------------------------------|
+  gtoken | default | 127.0.0.1:8081 | ALL    | /user/logout            | github.com/kotlin2018/token.(*GfToken).Logout-fm | token.CORS,token.(*GfToken).authMiddleware-fm  
+|--------|---------|----------------|--------|-------------------------|--------------------------------------------------|-----------------------------------------------|
+
+2021-02-14 04:25:58.689 78480: all servers shutdown
+2021-02-14 04:26:00.261 79244: all servers shutdown
