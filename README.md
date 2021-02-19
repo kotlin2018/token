@@ -74,10 +74,10 @@ func main() {
 
 // 分组拦截
 func group(s *ghttp.Server) {
-	token.LoginPath 		= "/login"
-	token.LogoutPath 		= "/user/logout"
-	token.AuthExcludePaths 	= g.SliceStr{"/user/info", "/system/user/*"} // 不拦截路径  /user/info,/system/user/info,/system/user
-	g2 := token.New()
+	g2 := token.GfToken{}
+	g2.LoginPath 		= "/login"
+	g2.LogoutPath 		= "/user/logout"
+	g2.AuthExcludePaths 	= g.SliceStr{"/user/info", "/system/user/*"} // 不拦截路径  /user/info,/system/user/info,/system/user
 	g2.LoginValidate = Login
 
 	s.Group("/base", func(group *ghttp.RouterGroup) {
@@ -176,11 +176,12 @@ func main() {
 
 // 全局拦截
 func global(s *ghttp.Server){
-	token.LoginPath 		= "/login"
-	token.LogoutPath 		= "/user/logout"
-	token.AuthPaths  		= g.SliceStr{"/user", "/system"}                // 这里是按照前缀拦截，拦截/user /user/list /user/add ...
-	token.AuthExcludePaths 	= g.SliceStr{"/user/info", "/system/user/info"} // 不拦截路径  /user/info,/system/user/info,/system/user,
-	g2 := token.New()
+	// 默认从配置文件中读取配置项
+	g2 := token.GfToken{}
+	g2.LoginPath 		= "/login"
+	g2.LogoutPath 		= "/user/logout"
+	g2.AuthPaths  		= g.SliceStr{"/user", "/system"}                // 这里是按照前缀拦截，拦截/user /user/list /user/add ...
+	g2.AuthExcludePaths     = g.SliceStr{"/user/info", "/system/user/info"} // 不拦截路径  /user/info,/system/user/info,/system/user,
 	g2.LoginValidate = Login
 
 	s.Group("/", func(group *ghttp.RouterGroup) {
