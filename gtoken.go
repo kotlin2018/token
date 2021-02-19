@@ -80,37 +80,45 @@ type GfToken struct {
 
 // InitConfig 初始化配置信息
 func (m *GfToken) InitConfig() bool {
-	if m.CacheMode == 0 {
+	if g.Cfg().GetString("token.ServerName") == "" {
+		m.ServerName = "gfToken"
+	}
+
+	if g.Cfg().GetInt8("token.CacheMode") == 0 {
 		m.CacheMode = CacheModeCache
 	}
 
-	if m.CacheKey == "" {
+	if g.Cfg().GetString("token.CacheKey") == "" {
 		m.CacheKey = "GToken:"
 	}
 
-	if m.Timeout == 0 {
+	if g.Cfg().GetInt("token.Timeout") == 0 {
 		m.Timeout = 10 * 24 * 60 * 60 * 1000
 	}
 
-	if m.MaxRefresh == 0 {
+	if g.Cfg().GetInt("token.MaxRefresh") == 0 {
 		m.MaxRefresh = m.Timeout / 2
 	}
 
-	if m.TokenDelimiter == "" {
+	if g.Cfg().GetString("token.TokenDelimiter") == "" {
 		m.TokenDelimiter = "_"
 	}
 
-	if len(m.EncryptKey) == 0 {
+	if len(g.Cfg().GetBytes("token.EncryptKey")) == 0 {
 		m.EncryptKey = []byte("12345678912345678912345678912345")
 	}
 
-	if m.AuthFailMsg == "" {
+	if g.Cfg().GetString("token.AuthFailMsg") == "" {
 		m.AuthFailMsg = "请求错误或登录超时"
 	}
 
+	if g.Config().GetBool("token.MultiLogin") != m.MultiLogin{
+		m.MultiLogin = true
+	}
+
 	// 设置中间件模式，未设置说明历史版本，通过GlobalMiddleware兼容
-	if m.MiddlewareType == 0 {
-		if m.GlobalMiddleware {
+	if g.Cfg().GetUint("token.MiddlewareType") == 0 {
+		if g.Config().GetBool("token.GlobalMiddleware") {
 			m.MiddlewareType = MiddlewareTypeGlobal
 		} else {
 			m.MiddlewareType = MiddlewareTypeBind
